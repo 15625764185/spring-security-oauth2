@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/oauth2-client/oauth2-client.iml" filepath="$PROJECT_DIR$/oauth2-client/oauth2-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2-client-two/oauth2-client-two.iml" filepath="$PROJECT_DIR$/oauth2-client-two/oauth2-client-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2.iml" filepath="$PROJECT_DIR$/spring-security-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-resource/spring-security-oauth2-resource.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-resource/spring-security-oauth2-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-oauth2-server/spring-security-oauth2-server.iml" filepath="$PROJECT_DIR$/spring-security-oauth2-server/spring-security-oauth2-server.iml" />
+    </modules>
+  </component>
+</project>

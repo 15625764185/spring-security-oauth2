@@ -1,0 +1,29 @@
+server:
+  port: 9502
+  servlet:
+    session:
+      cookie:
+        # 防止cookie冲突，冲突会导致登录验证不通过
+        name: OAUTH2-CLIENT-SESSIONID
+
+oauth2-service-url: http://localhost:8080
+
+#单点退出登录路径
+oauth2-logout-url:  ${oauth2-service-url}/oauth/exit
+
+spring:
+  application:
+    name: oauth2-client-two
+
+security:
+  # 与oauth2-server对应的配置
+  oauth2:
+    client:
+      client-id: client
+      client-secret: 123456
+      user-authorization-uri: ${oauth2-service-url}/oauth/authorize
+      access-token-uri: ${oauth2-service-url}/oauth/token
+    resource:
+      jwt:
+        key-uri: ${oauth2-service-url}/oauth/token_key
+        key-value: xiao7
